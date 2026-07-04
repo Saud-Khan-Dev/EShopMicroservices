@@ -41,9 +41,6 @@ services:
     depends_on:
       - basketdb  
 
-
-
-
   basketdb:
     image: postgres:16
     environment:
@@ -56,14 +53,27 @@ services:
     volumes:
       - postgres_basket:/var/lib/postgresql/data    
 
+
+  discountgrpc:
+    image: discountgrpc
+    build:
+      context: .
+      dockerfile: src/Services/Discount/Discount.Grpc/Dockerfile
+
+    environment:
+      - ConnectionStrings__Database=Data Source=/app/data/discount.db 
+    ports:
+      - 6002:8080
+      - 6062:8081
+    volumes:
+            - discount_data:/app/data
+
   distributedcache:
     image: redis  
     container_name: distributedcache
     restart: always
     ports:
       - "6379:6379"
-      
-
   pgadmin:
     image: dpage/pgadmin4
     container_name: pgadmin
@@ -79,6 +89,7 @@ services:
 volumes:
   postgres_catalog:
   postgres_basket:
+  discount_data:
 
 
 
