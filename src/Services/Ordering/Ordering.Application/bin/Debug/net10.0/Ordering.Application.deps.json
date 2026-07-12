@@ -65,7 +65,7 @@
           }
         }
       },
-      "MediatR/14.1.0": {
+      "MediatR/14.2.0": {
         "dependencies": {
           "MediatR.Contracts": "2.0.1",
           "Microsoft.IdentityModel.JsonWebTokens": "8.14.0"
@@ -73,7 +73,7 @@
         "runtime": {
           "lib/net10.0/MediatR.dll": {
             "assemblyVersion": "14.0.0.0",
-            "fileVersion": "14.1.0.0"
+            "fileVersion": "14.2.0.0"
           }
         }
       },
@@ -132,7 +132,7 @@
           "FluentValidation.AspNetCore": "11.3.1",
           "FluentValidation.DependencyInjectionExtensions": "12.1.1",
           "Mapster": "10.0.9",
-          "MediatR": "14.1.0"
+          "MediatR": "14.2.0"
         },
         "runtime": {
           "BuildingBlocks.dll": {
@@ -142,6 +142,9 @@
         }
       },
       "Ordering.Domain/1.0.0": {
+        "dependencies": {
+          "MediatR": "14.2.0"
+        },
         "runtime": {
           "Ordering.Domain.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -192,12 +195,12 @@
       "path": "mapster.core/10.0.9",
       "hashPath": "mapster.core.10.0.9.nupkg.sha512"
     },
-    "MediatR/14.1.0": {
+    "MediatR/14.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pdxza1pLqAk+06LV3THzNJrw5K5Ah6EC17TEkoC90gsAxwtXDJAQrGuDSDinHGgxWKWEn5ebqTNN3k1bLJOb0g==",
-      "path": "mediatr/14.1.0",
-      "hashPath": "mediatr.14.1.0.nupkg.sha512"
+      "sha512": "sha512-1vqNVS6ijU0IF78vDfIE99pi0iTa+M/1ztRlM98P+KL+Loi/O4knaR2+ex0AqbT5xBl01VFryjuYUAFtvGwzOQ==",
+      "path": "mediatr/14.2.0",
+      "hashPath": "mediatr.14.2.0.nupkg.sha512"
     },
     "MediatR.Contracts/2.0.1": {
       "type": "package",

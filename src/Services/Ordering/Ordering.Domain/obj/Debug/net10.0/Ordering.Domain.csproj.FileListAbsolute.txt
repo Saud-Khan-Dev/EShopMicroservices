@@ -10,3 +10,4 @@
 /home/saud/Work/Coding_Env/C# Projects With DotnetCore/Microservices/EShopMicroservices/src/Services/Ordering/Ordering.Domain/obj/Debug/net10.0/refint/Ordering.Domain.dll
 /home/saud/Work/Coding_Env/C# Projects With DotnetCore/Microservices/EShopMicroservices/src/Services/Ordering/Ordering.Domain/obj/Debug/net10.0/Ordering.Domain.pdb
 /home/saud/Work/Coding_Env/C# Projects With DotnetCore/Microservices/EShopMicroservices/src/Services/Ordering/Ordering.Domain/obj/Debug/net10.0/ref/Ordering.Domain.dll
+/home/saud/Work/Coding_Env/C# Projects With DotnetCore/Microservices/EShopMicroservices/src/Services/Ordering/Ordering.Domain/obj/Debug/net10.0/Ordering.Domain.csproj.AssemblyReference.cache
