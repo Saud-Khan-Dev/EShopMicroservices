@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3cADc2Lfbrs=",
+  "dgSpecHash": "tEoAD93sJqc=",
   "success": true,
   "projectFilePath": "/home/saud/Work/Coding_Env/C# Projects With DotnetCore/Microservices/EShopMicroservices/src/Services/Discount/Discount.Grpc/Discount.Grpc.csproj",
   "expectedPackageFiles": [
@@ -57,7 +57,7 @@
     "/home/saud/.nuget/packages/system.composition.hosting/9.0.0/system.composition.hosting.9.0.0.nupkg.sha512",
     "/home/saud/.nuget/packages/system.composition.runtime/9.0.0/system.composition.runtime.9.0.0.nupkg.sha512",
     "/home/saud/.nuget/packages/system.composition.typedparts/9.0.0/system.composition.typedparts.9.0.0.nupkg.sha512",
-    "/home/saud/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.4/microsoft.aspnetcore.app.ref.10.0.4.nupkg.sha512"
+    "/home/saud/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.9/microsoft.aspnetcore.app.ref.10.0.9.nupkg.sha512"
   ],
   "logs": [
     {

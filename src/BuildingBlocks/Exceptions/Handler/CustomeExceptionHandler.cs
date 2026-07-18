@@ -1,3 +1,4 @@
+using BuildingBlocks.Exceptions;
 using FluentValidation;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;

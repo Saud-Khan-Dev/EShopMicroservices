@@ -7,7 +7,10 @@ public static class DependencyInjection
   {
     services.AddMediatR(cf =>
     {
-      cf.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly());
+    cf.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly());
+    cf.AddOpenBehavior(typeof(LoggingBehavior<,>));
+    cf.AddOpenBehavior(typeof(ValidationBehavior<,>));
+
 
     });
     return services;

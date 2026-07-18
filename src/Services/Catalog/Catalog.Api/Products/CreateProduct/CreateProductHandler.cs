@@ -1,4 +1,6 @@
 
+using BuildingBlocks.CQRS;
+
 public record CreateProductCommand(
 string Name,
 List<string> Category,

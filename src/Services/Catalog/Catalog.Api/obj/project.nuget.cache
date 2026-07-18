@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Vi5zRClzoFk=",
+  "dgSpecHash": "aLLygga66Vc=",
   "success": true,
   "projectFilePath": "/home/saud/Work/Coding_Env/C# Projects With DotnetCore/Microservices/EShopMicroservices/src/Services/Catalog/Catalog.Api/Catalog.Api.csproj",
   "expectedPackageFiles": [
@@ -75,7 +75,20 @@
     "/home/saud/.nuget/packages/system.diagnostics.eventlog/10.0.0/system.diagnostics.eventlog.10.0.0.nupkg.sha512",
     "/home/saud/.nuget/packages/weasel.core/9.2.1/weasel.core.9.2.1.nupkg.sha512",
     "/home/saud/.nuget/packages/weasel.postgresql/9.2.1/weasel.postgresql.9.2.1.nupkg.sha512",
-    "/home/saud/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.4/microsoft.aspnetcore.app.ref.10.0.4.nupkg.sha512"
+    "/home/saud/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.9/microsoft.aspnetcore.app.ref.10.0.9.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "/home/saud/Work/Coding_Env/C# Projects With DotnetCore/Microservices/EShopMicroservices/src/Services/Catalog/Catalog.Api/Catalog.Api.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/saud/Work/Coding_Env/C# Projects With DotnetCore/Microservices/EShopMicroservices/src/Services/Catalog/Catalog.Api/Catalog.Api.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

@@ -19,6 +19,8 @@ public static class DependencyInjection
 
       option.UseSqlServer(connecctionString);
     });
+
+    services.AddScoped<IApplicationDbContext, ApplicationDbContext>();
     return services;
   }
 }

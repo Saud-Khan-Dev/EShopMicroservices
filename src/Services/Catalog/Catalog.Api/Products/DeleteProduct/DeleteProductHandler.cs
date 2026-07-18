@@ -1,3 +1,5 @@
+using BuildingBlocks.CQRS;
+
 public record DeleteProductCommand(Guid Id) : ICommand<DeleteProductResult>;
 public record DeleteProductResult(bool IsSuccess);
 

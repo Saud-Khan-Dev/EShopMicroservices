@@ -1,3 +1,5 @@
+using BuildingBlocks.CQRS;
+
 public record UpdateProductCommand(
 Guid Id,
 string Name,
